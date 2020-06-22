@@ -5,10 +5,7 @@ import OverviewCard from "../components/OverviewCard";
 function Overview(props) {
   const context = useContext(ThemeContext);
   return (
-    <div className={`${context.theme}-theme`}>
-      <h3 className="overviewTitle" style={{ paddingLeft: "17.5rem" }}>
-        Overview - Today
-      </h3>
+    <div className={`${context.theme}-theme`} id="overview">
       <div className="overview">
         <OverviewCard
           percent="3"

@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./pages/App";
+import Main from "./pages/Main";
 import { ThemeContextProvider } from "./themeContext";
-import "./assets/style.css";
+//import "./assets/style.css";
+import "./assets/Main.css";
 
 ReactDOM.render(
   <ThemeContextProvider>
-    <App />
+    <Main />
   </ThemeContextProvider>,
   document.getElementById("root")
 );

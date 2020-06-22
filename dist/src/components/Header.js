@@ -6,7 +6,7 @@ function Header(props) {
   const context = useContext(ThemeContext);
 
   return (
-    <header className={`${context.theme}-theme`} id="header">
+    <header className={`${context.header}-theme`} id="header">
       <div className="first-row">
         <span>
           <header className="title">Social Media Dashboard</header>

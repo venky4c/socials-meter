@@ -5,7 +5,7 @@ import IconInstagram from "./IconInstagram";
 import IconYoutube from "./IconYoutube";
 import UpIcon from "./UpIcon";
 import DownIcon from "./DownIcon";
-
+// Helper component which takes the name of the icon to be shown as a props parameter and returns the respective svg component
 const Icon = (props) => {
   switch (props.name) {
     case "fb":

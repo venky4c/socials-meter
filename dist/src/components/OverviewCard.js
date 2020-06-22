@@ -31,7 +31,7 @@ function OverviewCard(props) {
           </p>
         </div>
         <div className="ocRow2">
-          <span className="secondRow">
+          <p className="secondRow">
             <span
               className="cell3"
               style={{
@@ -61,7 +61,7 @@ function OverviewCard(props) {
               <Icon name={props.trend} />
               {props.percent}
             </p>
-          </span>
+          </p>
         </div>
       </div>
     </div>

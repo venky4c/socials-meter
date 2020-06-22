@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Header from "../components/Header";
 import Content from "../components/Content";
-import Overview from "./Overview";
+import Overview from "../components/Overview";
 import { ThemeContext } from "../themeContext";
 
 function Main() {

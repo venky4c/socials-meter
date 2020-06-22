@@ -6,7 +6,6 @@ function Content() {
   const context = useContext(ThemeContext);
   return (
     <div className={`${context.theme}-theme`} id="content">
-      {/* <div className="content"> */}
       <Card icon="fb" handle="@nathanf" number="1987" trend="up" people="12" />
       <Card icon="tw" handle="@nathanf" number="1044" trend="up" people="99" />
       <Card
@@ -23,7 +22,6 @@ function Content() {
         trend="down"
         people="144"
       />
-      {/* </div> */}
     </div>
   );
 }

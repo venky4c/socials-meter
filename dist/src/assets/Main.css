@@ -1,4 +1,3 @@
-@import url("https://fonts.google.com/specimen/Inter");
 :root {
   --card-top: linear-gradient(to right, hsl(203, 89%, 53%), hsl(329, 70%, 58%));
   /* ## Colors### Primary */
@@ -31,7 +30,7 @@
   /* font details */
   /* Body Copy */
   --fontSize: 14px;
-  --fontFamily: Inter;
+  --fontFamily: "Inter", sans-serif;
   --fontWeights: 400, 700;
 }
 /* -------------------------------- toggle themes start -----------------------------*/
@@ -96,7 +95,7 @@
   margin-top: 1.5vw;
   font-size: min(max(0.75rem, 4vw), 1.5rem);
   font-weight: 700;
-  font-family: var(--fontFamily);
+  font-family: "Inter", sans-serif;
 }
 button {
   border: 1px solid hsl(0, 10%, 90%);

@@ -52,9 +52,11 @@
 }
 .lightCard-theme {
   background: var(--light-card);
+  border-radius: 0.6rem;
 }
 .darkCard-theme {
   background: var(--dark-card);
+  border-radius: 0.6rem;
 }
 .darkCard-theme:hover {
   background: var(--toggle-dark);
@@ -72,7 +74,6 @@
 /* -------------------------------- page styles start -----------------------------*/
 /* -------------------------------- header page styles ----------------------------*/
 #header {
-  border: 2px dashed red;
   display: grid;
   grid-template-rows: 5.5rem 5rem 8rem;
   grid-area: 1/2/3/3;
@@ -93,6 +94,7 @@
 .title {
   margin-top: 1.5vw;
   font-size: min(max(0.75rem, 4vw), 1.5rem);
+  font-weight: var(--fontWeights);
 }
 button {
   border: 1px solid hsl(0, 10%, 90%);
@@ -101,7 +103,6 @@ button {
 /*-------------------------------- header page ends ----------------------------*/
 /*-------------------------------- content styles -------------------------------*/
 #content {
-  border: 2px dotted salmon;
   display: grid;
   grid-row: 2 / span 2;
   grid-column: 2/3;
@@ -109,6 +110,8 @@ button {
   row-gap: 1rem;
   justify-content: space-between;
   overflow: auto;
+  opacity: 75%;
+  border-radius: 1rem;
 }
 .cardDiv {
   display: grid;
@@ -126,7 +129,6 @@ button {
 /* --------------------------------- Overview style ---------------------------------*/
 #overview {
   grid-area: 5/2/6/3;
-  border: 2px dotted white;
   display: grid;
   justify-content: space-between;
   grid-template-columns: repeat(auto-fill, minmax(16rem, 19rem));
@@ -136,7 +138,6 @@ button {
 .overviewCard-div {
   display: grid;
   border-radius: 0.6rem;
-  border: 2px dotted red;
 }
 .cell1 {
   display: grid;

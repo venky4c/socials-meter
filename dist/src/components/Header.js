@@ -8,12 +8,10 @@ function Header(props) {
   return (
     <header className={`${context.header}-theme`} id="header">
       <div className="first-row">
-        <span>
-          <header className="title">Social Media Dashboard</header>
-          <div className="toggle">
-            <Toggle />
-          </div>
-        </span>
+        <h1 className="title">Social Media Dashboard</h1>
+        <div className="toggle">
+          <Toggle />
+        </div>
       </div>
       <div className="subtext">
         <p className="subtext-p">Total Followers 23,004</p>

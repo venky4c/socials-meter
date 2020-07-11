@@ -1,6 +1,7 @@
 # socials-meter
 A React app that show cases the use of useContext hook by toggling between light and dark modes.
 Live URL: https://mighty-ridge-22502.herokuapp.com/
+
 Implemented: 
 useContext hook for toggling between light and dark themes.
 Separate Icon component to load all the SVG images.
